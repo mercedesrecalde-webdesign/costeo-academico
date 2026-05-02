@@ -147,7 +147,7 @@ export function DataProvider({ children }) {
                         ...ing,
                         purchasePrice: ing.purchase_price,
                         unitPrice: (ing.purchase_price || 0) / (ing.quantity || 1)
-                    }));
+                    })).sort((a, b) => (a.name || '').localeCompare(b.name || ''));
                     setIngredients(mappedIngredients);
                 }
 
@@ -285,7 +285,7 @@ export function DataProvider({ children }) {
                     purchasePrice: data[0].purchase_price,
                     unitPrice: (data[0].purchase_price || 0) / (data[0].quantity || 1)
                 };
-                setIngredients(prev => [...prev, mapped]);
+                setIngredients(prev => [...prev, mapped].sort((a, b) => (a.name || '').localeCompare(b.name || '')));
                 return mapped;
             }
         } catch (err) {
@@ -309,14 +309,14 @@ export function DataProvider({ children }) {
             .eq('id', id);
         
         if (!error) {
-            setIngredients(prev => prev.map(ing => 
-                ing.id === id ? { 
-                    ...ing, 
-                    ...updatedIngredient,
-                    purchase_price: updatedIngredient.purchasePrice,
-                    unitPrice: (updatedIngredient.purchasePrice || 0) / (updatedIngredient.quantity || 1)
-                } : ing
-            ));
+                setIngredients(prev => prev.map(ing => 
+                    ing.id === id ? { 
+                        ...ing, 
+                        ...updatedIngredient,
+                        purchase_price: updatedIngredient.purchasePrice,
+                        unitPrice: (updatedIngredient.purchasePrice || 0) / (updatedIngredient.quantity || 1)
+                    } : ing
+                ).sort((a, b) => (a.name || '').localeCompare(b.name || '')));
         } else {
             console.error('Error updating ingredient:', error);
         }

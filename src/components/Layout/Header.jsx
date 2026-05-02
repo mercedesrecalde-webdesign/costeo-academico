@@ -34,18 +34,33 @@ function Header() {
             }}>
                 {/* Logo */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                    <img
-                        src="/platify-logo.png"
-                        alt="PLATIFY Logo"
-                        style={{
-                            height: '110px',
-                            width: 'auto',
-                            background: theme === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'transparent',
-                            borderRadius: '8px',
-                            padding: theme === 'dark' ? '8px' : '0',
-                            transition: 'all 0.3s ease'
-                        }}
-                    />
+                    <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        lineHeight: 1.1
+                    }}>
+                        <span style={{
+                            fontSize: '1.4rem',
+                            fontWeight: '900',
+                            color: 'var(--primary)',
+                            letterSpacing: '-0.01em',
+                            textTransform: 'uppercase',
+                            fontFamily: 'system-ui, sans-serif'
+                        }}>
+                            Mercedes Recalde
+                        </span>
+                        <span style={{
+                            fontSize: '0.7rem',
+                            fontWeight: '700',
+                            color: 'var(--text-secondary)',
+                            letterSpacing: '0.25em',
+                            textTransform: 'uppercase',
+                            opacity: 0.8,
+                            marginTop: '0.1rem'
+                        }}>
+                            Gestión Gastronómica
+                        </span>
+                    </div>
                 </div>
 
                 {/* Controls */}
