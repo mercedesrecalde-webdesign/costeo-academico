@@ -1,4 +1,4 @@
-// School Nutrition Reference Data for PLATIFY
+// School Nutrition Reference Data for Costeo Académico
 // Based on FAO/WHO/UNU recommendations and Argentine GAPA guidelines
 // For school cafeterias (comedores escolares) in Misiones, Argentina
 

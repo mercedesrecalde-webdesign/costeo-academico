@@ -362,7 +362,7 @@ export default function RecipesList() {
                         </div>
 
                         <div class="brand-footer">
-                            <div>PLATIFY Gastronomic Ecosystem &bull; Gestión de Comedores</div>
+                            <div>Gestión de Comedores &bull; Mercedes Recalde</div>
                             <div>&copy; ${new Date().getFullYear()} Mercedes Recalde</div>
                         </div>
                     </div>

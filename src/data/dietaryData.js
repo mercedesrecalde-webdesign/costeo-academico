@@ -1,4 +1,4 @@
-// Dietary Restrictions Database for PLATIFY
+// Dietary Restrictions Database for Costeo Académico
 // Contains allergen info, dietary compatibility, and macro information
 
 export const dietaryRestrictions = {

@@ -1,7 +1,7 @@
 {
     "app": {
-        "name": "Platify",
-        "shortName": "Platify",
+        "name": "Costeo Académico",
+        "shortName": "Costeo",
         "description": "Plataforma integral de gestión, menú y costeo gastronómico"
     },
     "nav": {

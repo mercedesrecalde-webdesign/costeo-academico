@@ -1,4 +1,4 @@
-# 📦 PLATIFY - Instrucciones de Instalación y Uso
+# 📦 Gestión Gastronómica - Instrucciones de Instalación y Uso
 
 ## ✅ ¡Tu aplicación está lista!
 
@@ -66,7 +66,7 @@ C:\Users\mmr_1\OneDrive\Escritorio\costeo recetas mrecalde\recipe-costing-app\di
    - Abrir navegador en: http://localhost:3000
 
 4. OPCIONAL - Instalar como App:
-   - En Chrome/Edge, click en "Instalar Platify"
+   - En Chrome/Edge, click en "Instalar Aplicación"
    - Ahora aparecerá como app en tu inicio
 
 ## Soporte:

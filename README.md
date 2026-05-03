@@ -1,4 +1,4 @@
-# 🍽️ PLATIFY - Professional Recipe Costing App
+# 🍽️ Costeo Académico - Professional Recipe Costing App
 
 **Aplicación profesional de costeo gastronómico para restaurantes, hoteles y operaciones F&B**
 

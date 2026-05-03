@@ -1,7 +1,7 @@
 {
     "app": {
-        "name": "Platify",
-        "shortName": "Platify",
+        "name": "Academic Costing",
+        "shortName": "Costing",
         "description": "Comprehensive platform for menu planning and recipe costing"
     },
     "nav": {

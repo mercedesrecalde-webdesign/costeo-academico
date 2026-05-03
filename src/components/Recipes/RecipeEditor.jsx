@@ -313,7 +313,7 @@ export default function RecipeEditor({
             setFormData(prev => ({ ...prev, photoUrl: publicUrl }));
         } catch (err) {
             console.error("Error uploading photo:", err);
-            alert("Error al subir la foto. Asegurate de que el bucket 'platify-photos' existe en Supabase.");
+            alert("Error al subir la foto. Asegurate de que el bucket 'recetas-photos' existe en Supabase.");
         } finally {
             setIsUploading(false);
         }
